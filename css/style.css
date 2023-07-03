@@ -1,0 +1,33 @@
+:root{
+    --raleway: "Raleway" , sans-serif;
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --background-secondary: #EAF2FD;
+    --background-third: #FFFFFF;
+    --color: #464646;
+    --color-secondary: #2A7AE4;
+    --color-resaltado: #797979;
+    --color-label: rgb(162, 162, 162);
+    --color-boton-repo: rgb(200, 200, 200);
+    --color--boton-demo: #0b67e1;    
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: var(--raleway);
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 1;    
+}
+
+ol,ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color);
+    font-size: medium;
+}

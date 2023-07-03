@@ -1,0 +1,64 @@
+/*Seccion skill and Hobbies*/
+
+.skills__title, .hobbies__title {
+    text-align: center;
+    padding: 2rem;
+}
+
+.skills__line, .hobbies__line {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+}
+
+.hobbies__line {
+    padding-bottom: 88px;
+}
+
+.skills__box, .hobbies__box{ 
+    background: var(--background-third);
+    border-radius: 5%;
+    height: 174px;
+    width: 15%;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.3s;
+    
+}
+
+.skills__box:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 12px rgba(0,0,0);
+    
+}
+
+.hobbies__box:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 12px rgba(0,0,0);
+}
+    
+.skills__box ul, .hobbies__box ul {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.skills__box .skills__name, .hobbies__box .hobbies__name {
+    font-family: var(--raleway);
+    color: var(--color);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.skills__img, .hobbies__img{
+    margin-bottom: 8px;
+}
+
+.hobbies__img img {
+    width: 32px;
+}

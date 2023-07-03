@@ -1,0 +1,27 @@
+/*---------------seccion About---------------*/
+
+.about{
+    background-color: var(--background-secondary);
+    text-align: left;
+    padding: 5rem;
+    margin: auto;
+}
+
+.about__container {
+    width: 55vw;
+}
+
+.about__title {
+    font-weight: bold;
+    color: var(--color);
+}
+
+.about__paragraph {
+    font-weight: 400;
+    color: var(--color);
+}
+
+.img {
+    border-style: none;
+}
+

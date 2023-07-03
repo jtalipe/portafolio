@@ -1,0 +1,53 @@
+/*Contacto*/
+
+.formcontato__contacto {
+    background-color: var(--background-secondary);
+}
+
+.formcontato--esquerda {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 64px 64px;
+}
+
+.formcontato__img {
+    width: 350px;
+}
+
+.formcontato__title {
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.formcontato__subtext {
+    font-size: 15px;
+    color: #464646;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.formcontato__input {
+    padding: 0.5rem 1rem;
+    border: 2px;
+    outline: none;
+    border-bottom: 1px solid var(--color-label);
+}
+
+.formcontato__input:focus {
+    border-bottom: 2px solid var(--color-secondary);
+}
+
+button.formcontato__botao {
+    text-align: center;
+    width: 115px;
+    height: 40px;
+    color: white;
+    border-style: none;
+    background-color: var(--color-secondary);
+}
+

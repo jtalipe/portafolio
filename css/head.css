@@ -1,8 +1,6 @@
 
 /*---------------seccion Menu---------------*/
 
-@import url(style.css);
-
 .menu {
     display: flex;
     flex-direction: row;
